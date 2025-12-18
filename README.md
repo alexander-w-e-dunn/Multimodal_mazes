@@ -28,7 +28,9 @@ pip install -e .
 
 Broadly, the library consists of **tasks** and **agents**. 
 
-Note that the notebooks (*.ipynb*) in scripts are intended for analysis, plotting and working, and not for running from start to finish. 
+Notes:
+* The notebooks (*.ipynb*) in scripts are intended for analysis, plotting and working, and not for running from start to finish. 
+* Code should be run from the scripts/ folder. 
 
 ### Tasks 
 
