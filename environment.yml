@@ -18,4 +18,4 @@ dependencies:
   - pip:
     - netgraph
     - neat-python
-prefix: C:\Users\ghosh\anaconda3\envs\Multimodal_mazes
+prefix: C:\Users\ad04\AppData\Local\miniconda3\envs\Multimodal_mazes

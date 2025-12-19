@@ -7,9 +7,9 @@ from netgraph import Graph
 import seaborn as sns
 import multimodal_mazes
 from matplotlib import cm
-
-plt.style.use("../multimodal_mazes/plotting/style_sheet.mplstyle")
-
+from pathlib import Path
+STYLE_PATH = Path(__file__).parent / "style_sheet.mplstyle"
+plt.style.use(STYLE_PATH)
 """
 Ideas:
     Multiple paths (repeats or different mazes) could be shown as subplots
